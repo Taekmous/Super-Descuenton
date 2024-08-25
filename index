@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://github.com/Taekmous/Super-Descuenton/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#111418] dark group/design-root overflow-x-hidden"
+      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+    >
+      <div class="flex items-center bg-[#111418] p-4 pb-2 justify-between">
+        <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12 pr-12">Panel de Administración</h2>
+      </div>
+      <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">Debes ingresar la contraseña de administrador para acceder a esta página.</p>
+      <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+        <label class="flex flex-col min-w-40 flex-1">
+          <input
+            placeholder="Contraseña"
+            class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border border-[#3c4753] bg-[#1c2126] focus:border-[#3c4753] h-14 placeholder:text-[#9dabb8] p-[15px] text-base font-normal leading-normal"
+            value=""
+          />
+        </label>
+      </div>
+      <div class="flex justify-center">
+        <button
+          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1980e6] text-white text-sm font-bold leading-normal tracking-[0.015em] w-full"
+        >
+          <span class="truncate">Ingresar</span>
+        </button>
+      </div>
+      <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Agregar un enlace a la página de inicio</h2>
+      <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+        <label class="flex flex-col min-w-40 flex-1">
+          <input
+            placeholder="Título"
+            class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border-none bg-[#293038] focus:border-none h-14 placeholder:text-[#9dabb8] p-4 text-base font-normal leading-normal"
+            value=""
+          />
+        </label>
+        <label class="flex flex-col min-w-40 flex-1">
+          <input
+            placeholder="URL"
+            class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border-none bg-[#293038] focus:border-none h-14 placeholder:text-[#9dabb8] p-4 text-base font-normal leading-normal"
+            value=""
+          />
+        </label>
+      </div>
+      <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Cambiar el color de fondo de la página de inicio</h2>
+      <div class="flex flex-wrap gap-5 p-4">
+        <label
+          class="size-10 rounded-full border border-[#3c4753] ring-[color-mix(in_srgb,#ffffff_50%,_transparent)] has-[:checked]:border-[3px] has-[:checked]:border-[#111418] has-[:checked]:ring"
+          style="background-color: rgb(244, 244, 244);"
+        >
+          <input type="radio" class="invisible" name="b3defbdc-8bae-4250-aab3-62128218fe2c" checked="" />
+        </label>
+        <label
+          class="size-10 rounded-full border border-[#3c4753] ring-[color-mix(in_srgb,#ffffff_50%,_transparent)] has-[:checked]:border-[3px] has-[:checked]:border-[#111418] has-[:checked]:ring"
+          style="background-color: rgb(255, 255, 255);"
+        >
+          <input type="radio" class="invisible" name="b3defbdc-8bae-4250-aab3-62128218fe2c" />
+        </label>
+        <label
+          class="size-10 rounded-full border border-[#3c4753] ring-[color-mix(in_srgb,#ffffff_50%,_transparent)] has-[:checked]:border-[3px] has-[:checked]:border-[#111418] has-[:checked]:ring"
+          style="background-color: rgb(229, 229, 229);"
+        >
+          <input type="radio" class="invisible" name="b3defbdc-8bae-4250-aab3-62128218fe2c" />
+        </label>
+      </div>
+      <div class="h-5 bg-[#111418]"></div>
+    </div>
+  </body>
+</html>
